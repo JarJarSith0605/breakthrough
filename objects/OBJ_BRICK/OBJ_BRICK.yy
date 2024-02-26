@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "OBJ_BRIK",
+  "name": "OBJ_BRICK",
   "spriteId": {
     "name": "SPR_BRICK",
     "path": "sprites/SPR_BRICK/SPR_BRICK.yy",
