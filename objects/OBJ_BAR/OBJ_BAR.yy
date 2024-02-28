@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "OBJ_BAR",
   "spriteId": {
-    "name": "SPR_BAT",
-    "path": "sprites/SPR_BAT/SPR_BAT.yy",
+    "name": "SPR_BAR",
+    "path": "sprites/SPR_BAR/SPR_BAR.yy",
   },
   "solid": false,
   "visible": true,
