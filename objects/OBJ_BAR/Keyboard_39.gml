@@ -1,4 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-x = x + 7; 
+if (x < room_width - sprite_xoffset - spd) {
+	x = x + spd; 
+}
+
 
