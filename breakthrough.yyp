@@ -6,6 +6,7 @@
     {"id":{"name":"SPR_BALL","path":"sprites/SPR_BALL/SPR_BALL.yy",},"order":0,},
     {"id":{"name":"OBJ_BAR","path":"objects/OBJ_BAR/OBJ_BAR.yy",},"order":1,},
     {"id":{"name":"OBJ_BALL","path":"objects/OBJ_BALL/OBJ_BALL.yy",},"order":3,},
+    {"id":{"name":"OBJ_CNR","path":"objects/OBJ_CNR/OBJ_CNR.yy",},"order":4,},
     {"id":{"name":"SPR_BRICK","path":"sprites/SPR_BRICK/SPR_BRICK.yy",},"order":2,},
     {"id":{"name":"SPR_BAT","path":"sprites/SPR_BAT/SPR_BAT.yy",},"order":1,},
     {"id":{"name":"OBJ_BRICK","path":"objects/OBJ_BRICK/OBJ_BRICK.yy",},"order":2,},
