@@ -5,13 +5,19 @@ if(bbox_left < 0 or bbox_right > room_width){
 }    
 
 if(bbox_top < 0){ 
-	vspeed *= - 1	
+	vspeed *= - 1;	
 } 
 
-if(bbox_bottom > room_height){ 
-	global.player_lives -=1
-	if(global.player_lives <= 0
+if(bbox_bottom > room_height) { 
+	global.player_lives -=1;
+	instance_destroy();
 	
-	instance_destroy ();
-	instance_create_layer(xstart, ystart, "instances", OBJ_BALL)
+	if(global.player_lives <= 0) {
+		OBJ_CNR.gameover = true;
+		if(global.player_score > global.high_score){
+			global.high_score = global.player_score;
+		}
+	} else {
+		instance_create_layer(xstart, ystart, "instances", OBJ_BALL)
+	}
 }
