@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "OBJ_BAR",
+  "name": "OBJ_PWRS",
   "spriteId": {
-    "name": "SPR_BAR",
-    "path": "sprites/SPR_BAR/SPR_BAR.yy",
+    "name": "SPR_PWRS",
+    "path": "sprites/SPR_PWRS/SPR_PWRS.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,9 +26,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":37,"eventType":5,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":39,"eventType":5,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"OBJ_BAR","path":"objects/OBJ_BAR/OBJ_BAR.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],

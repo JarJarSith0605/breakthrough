@@ -4,3 +4,4 @@ draw_set_font(FNT_GAME);
 
 gameover = false;
 
+randomise();
